@@ -3,7 +3,7 @@
 
 A Python project that scrapes YouTube comments from any video and classifies them as Good (positive/neutral) or Bad (negative/offensive) using Google Gemini API (gemini-1.5-pro). As this is a basic project on python done for experience to see how API calling could work and got to try different approches while working on this project
 
----
+
 
 ## Features
 
@@ -12,7 +12,7 @@ A Python project that scrapes YouTube comments from any video and classifies the
 * Preview scraped comments in the app.
 * Download classified comments as a CSV file.
 
----
+
 
 ## Tech Used
 
@@ -23,7 +23,7 @@ A Python project that scrapes YouTube comments from any video and classifies the
 * **Google Gemini API (gemini-1.5-pro)** – sentiment classification
 * **Chrome & ChromeDriver** – browser automation
 
----
+
 
 ## How It Works
 
@@ -34,7 +34,7 @@ A Python project that scrapes YouTube comments from any video and classifies the
 
 > Note: Make sure your Gemini API key is valid and ChromeDriver version matches your Chrome browser.
 
----
+
 
 ## How to Run
 
@@ -61,7 +61,7 @@ streamlit run geminicrawler.py
 
 6. Enter the YouTube video URL → Click **Scrape Comments** → Click **Classify Comments** → Download results.
 
----
+
 
 ## Folder Structure
 
@@ -76,7 +76,7 @@ YTCommentsSentimentAnalysis/
 └─ README.md               # Project documentation
 ```
 
----
+
 
 ## 
 
